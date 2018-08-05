@@ -1,5 +1,5 @@
 # FCC-Projects
 All the projects in FCC curriculum.
 # Projects Completed:
-1- Tribute Page.__
-2- Survey Form.__
+1- Tribute Page.  
+2- Survey Form.  
