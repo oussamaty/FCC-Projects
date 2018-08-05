@@ -1,0 +1,100 @@
+body {
+  background: #fff46b;
+  font-family: Raleway;
+}
+main {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+#title {
+  text-align: center;
+}
+#description {
+  margin: 0;
+  text-align: center;
+}
+#survey-form {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(9,auto);
+  grid-row-gap: 20px;
+}
+.inputs {
+  display: inline-block;
+  position: relative;
+  left: 15%;
+}
+.labels {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  position: relative;
+  left: 10%;
+}
+#radio-list,#checkbox-list{
+  list-style: none;
+}
+#radio-label{
+  top: -10%;
+}
+#checkbox-label {
+  top: -37.5%;
+}
+#textarea-label {
+  top: -37.5%;
+}
+#submit {
+  position: relative;
+  left: 50%;
+  width:150px;
+  height: 50px;
+  background-color:#4D90FE;
+  border:1px solid;
+  border-radius: 5px;
+  padding-right:10px;
+  padding-left:10px;
+  font-size:20px;
+  font-weight:bold;
+  color:#fff;
+  white-space:nowrap;
+  margin-top: 15px;
+}
+#radios {
+  left: 10.5%;
+}
+#checkboxes {
+  left: 10.75%;
+}
+#name, #email, #number {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#dropdown , #dropdown2{
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+li {
+  padding: 3px;
+}
+#textarea {
+  height: 50px;
+  width: 280px;
+  padding: 5px;
+  margin:  5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
