@@ -1,0 +1,41 @@
+main {
+  margin: 10px auto;
+  padding: 10px;
+  background: #AAAAAA;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+#title {
+  color: #11111;
+  font-size: 50px;
+  text-align: center;
+}
+#subtitle {
+  text-align: center;
+}
+#img-div {
+  background: #DDDDDD;
+  border-radius: 5px;
+  padding: 15px;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+#img-caption {
+  text-align: center;
+}
+#tribute-info {
+  text-align: center;
+}
+li {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+  line-height: 30px;
+}
+#quote, #name-quote{
+  font-style: italic;
+}
