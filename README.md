@@ -1,5 +1,5 @@
 # FCC-Projects
 All the projects I have done in FCC curriculum.
 ## Projects Completed:
-* [Tribute Page](/Tribute-Page/)  
-* [Survey Form](/Survey-Form/) 
+* [Tribute Page](https://codepen.io/oussamaty/full/NBzomo/)  
+* [Survey Form](https://codepen.io/oussamaty/pen/rrKEML) 
