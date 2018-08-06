@@ -1,6 +1,6 @@
 # Data available:  
-* Company Logo.
-* Piano Picture.
-* Guitar Picture.
-* Violin Picture.
-* Saxophone Picture.
+* [Company Logo](lion.jpeg).
+* [Piano Picture]().
+* [Guitar Picture]().
+* [Violin Picture]().
+* [Saxophone Picture]().
