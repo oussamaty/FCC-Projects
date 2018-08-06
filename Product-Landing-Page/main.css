@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  background: #9cc1d1;
+  font-family: 'Playfair Display';
+}
+#header {
+  position: fixed;
+  top:0;
+  left:0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0 0 1px 0;
+  background-color: #fff;
+  height: 100px;
+  display: flex;
+  z-index: 1;
+  box-shadow: 0 0 1px 0 #000;
+}
+#header-img {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 35%;
+  height: 100px;
+  width: auto;
+  display: inline-block;
+}
+#header-name {
+  display: inline-block;
+  position: relative;
+  left: 40%;
+  top: -37.5%;
+  font-size: 20px;
+}
+#leftDiv, #rigthDiv {
+  width: 50%;
+}
+#nav-bar {
+  display: flex;
+}
+.nav-link {
+  padding: 10px;
+  width: 20%;
+  border: 1px solid #fff;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px 1px 0 1px;
+  text-align: center;
+  line-height: 80px;
+  text-decoration: none;
+  color: #000;
+}
+.nav-link:hover {
+  border: 1px groove #000;
+}
+#subscribe {
+  display: flex;
+  flex-direction: column;
+  justfiy-items: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  width: 70%;
+  margin-left: 15%;
+  background-color: #F2F3F4;
+}
+#email {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  width: 200px;
+  height: 20px;
+  font-size: 15px;
+}
+#submit {
+  margin: 15px;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #4D90FE;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+#submit:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1px 0 #000;
+}
+#video {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+#products {
+  margin-top: 1px;
+  margin-bottom: 50px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  perspective: 800px;
+}
+.products {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  background-color: #EFD469;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+img,.back {
+  display: block;
+  position:relative;
+  top:0;
+  left:0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  backface-visibility: hidden;
+}
+.back {
+  top: -110px;
+  transform: rotateY(180deg);
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (min-width: 600px) {
+  .products:hover {
+    transform: rotateY(180deg);
+  }
+}
+.label {
+  margin-top: 50px;
+}
+#prices {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-around;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+.pack {
+  margin: 10px;
+  padding: 0px;
+  width: 30%;
+  height: 90%;
+  border: 1px solid #555;
+}
+.headline {
+  width: 100%;
+  height: 50px;
+  background: #b5c689;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+.price {
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+.content{
+  height: 160px;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #093145;
+  border-radius: 5px;
+  background-color: #efd469;
+  color: #093145;
+  font-weight: bold;
+  font-size: 16px;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1px 0 #000;
+}
+#contact {
+  width: 100%;
+  height: 60px;
+  background-color: #dadedf;
+  box-shadow: 0 0 1px 0 #000;
+  border: 0 solid #dadedgf;
+  margin: 0;
+  padding: 0;
+   display: flex;
+}
+.links {
+  width: 100px;
+  border-style: solid;
+  border-color: #dadedf;
+  border-width: 0 1px 1px 1px;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 55px;
+}
+.links:hover {
+  border: 1px groove #000;
+}
+.copyright {
+  margin-left: auto;
+  font-size: 14px;
+  align-self: center;
+}
+.contact-email {
+  margin-left: auto;
+  font-size: 15px;
+  align-self: center;
+}
