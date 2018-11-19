@@ -1,7 +1,7 @@
 # Free Code Camp Projects
 All the projects I have done in FCC curriculum.
 ## Projects Completed:
-* [Rock Paper Scissors Game](/RockPaperScissors/)
+* [Rock Paper Scissors Game](/Rock-Paper-Scissors/)
 * [Personal Portfolio](/Personal-Portfolio/)
 * [Technical Documentation Page](/Technical-Documentation-Page/) 
 * [Product Landing Page](/Product-Landing-Page/) 
